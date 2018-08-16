@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>Member My List</h1>
+<h1>Group Index</h1>
 </body>
 </html>
