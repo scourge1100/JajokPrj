@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+.color-main{
+	color:#0ea5fe;
+}
+.color-sub{
+	color:#0be3e8;
+}
+.color-last{
+	color:#01ffa7;
+}
+.color-light{
+	color:#0ce84a;
+}
+.color-high-light{
+	color:#23ff05;
+}
+
+#header{
+	border-bottom: 2px solid #000;
+}
