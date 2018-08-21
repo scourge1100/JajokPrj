@@ -14,11 +14,11 @@ public class MemberCourseController {
 	@RequestMapping("index")
 	public String memberIndex(Model model) {
 		model.addAttribute("test","Hello");
-		return "course/index.jsp";
+		return "member.course.index";
 	}
 
 	@RequestMapping("myList")
 	public String myList(Member member) {
-		return "course/myList";
+		return "member.course.myList";
 	}
 }

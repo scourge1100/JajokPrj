@@ -11,10 +11,10 @@ public class MemberContestController {
 
 	@RequestMapping("index")
 	public String contestIndex() {
-		return"contest/index";
+		return"member.contest.index";
 	}
 	@RequestMapping("insert")
 	public String contestInsert(Member member) {
-		return"contest/insert";
+		return"member.contest.insert";
 	}
 }

@@ -10,11 +10,11 @@ import com.Jajok.web.entity.Member;
 public class MemberGroupController {
 	@RequestMapping("index")
 	public String groupIndex() {
-		return"group/index";
+		return"member.group.index";
 	}
 	@RequestMapping("insert")
 	public String groupInsert(Member member) {
-		return"group/insert";
+		return"member.group.insert";
 	}
 
 }
